@@ -9,7 +9,7 @@ go get github.com/mrtdeh/go-func-cache
 ```
 
 use:
-```
+```golang
 // main.go
 
 var c caching.Cache
