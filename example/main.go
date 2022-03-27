@@ -1,7 +1,8 @@
-package example
+package main
 
 import (
 	"fmt"
+	"mrtdeh/caching"
 
 	"math/rand"
 	"time"
