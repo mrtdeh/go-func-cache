@@ -42,7 +42,6 @@ func testCacheFunc() {
 
 }
 
-8674665223082154551
 ```
 
 benchmarking :
