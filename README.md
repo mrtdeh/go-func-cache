@@ -1,4 +1,4 @@
-# go-func-cache
+# go-funcacher
 Simple cache go function with key/val storing...
 
 install :
