@@ -76,6 +76,7 @@ func TestGoCacherBench(t *testing.T) {
 
 ```
 run test with verbose mode : `-v`
+
 and then result:
 ```
 === RUN   TestGetAgentHash
