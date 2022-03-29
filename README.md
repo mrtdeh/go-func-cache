@@ -92,7 +92,7 @@ PASS
 ok      command-line-arguments  6.003s
 ```
 
-again try with 10 times(per second) and 5 second for expire duration :
+again try with 10 times(in second) and 5 second for expire duration :
 ```
 === RUN   TestGetAgentHash
 my cached value :  5577006791947780410
