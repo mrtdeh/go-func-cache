@@ -96,25 +96,25 @@ again try with 10 times(per second) and 5 second for expire duration :
 ```
 === RUN   TestGetAgentHash
 my cached value :  5577006791947780410
-2022/03/29 08:33:48 1.000272463s
+2022/03/29 08:33:48 1.000272463s   <-- first caching ***
 my cached value :  5577006791947780410
-2022/03/29 08:33:49 18.434µs
+2022/03/29 08:33:49 18.434µs       <-- use cached
 my cached value :  5577006791947780410
-2022/03/29 08:33:50 16.222µs
+2022/03/29 08:33:50 16.222µs       <-- use cached
 my cached value :  5577006791947780410
-2022/03/29 08:33:51 31.235µs
+2022/03/29 08:33:51 31.235µs       <-- use cached
 my cached value :  5577006791947780410
-2022/03/29 08:33:52 25.438µs
+2022/03/29 08:33:52 25.438µs       <-- use cached
 my cached value :  8674665223082154551
-2022/03/29 08:33:54 1.000199505s
+2022/03/29 08:33:54 1.000199505s   <-- second caching ***
 my cached value :  8674665223082154551
-2022/03/29 08:33:55 31.811µs
+2022/03/29 08:33:55 31.811µs       <-- use cached
 my cached value :  8674665223082154551
-2022/03/29 08:33:56 30.71µs
+2022/03/29 08:33:56 30.71µs        <-- use cached
 my cached value :  8674665223082154551
-2022/03/29 08:33:57 18.292µs
+2022/03/29 08:33:57 18.292µs       <-- use cached
 my cached value :  8674665223082154551
-2022/03/29 08:33:58 39.004µs
+2022/03/29 08:33:58 39.004µs       <-- use cached
 --- PASS: TestGetAgentHash (12.00s)
 PASS
 ok      command-line-arguments  12.005s
