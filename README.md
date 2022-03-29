@@ -45,7 +45,7 @@ func testCacheFunc() {
 
 ```
 
-Benchmarking :
+benchmarking :
 ```golang
 func TestGoCacherBench(t *testing.T) {
 	for i := 0; i < 5; i++ {
